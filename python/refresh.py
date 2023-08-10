@@ -55,5 +55,11 @@
 ##print(str, str2)
 ##print(str3)
 
-print('poo')
+##conf_string = 'He said, "Aren't can't shouldn't wouldn't."'
+##conf_string = "He said, "Aren't can't shouldn't wouldn't.""
+##conf_string = '''He said, "Aren't can't shouldn't wouldn't."'''
+##conf_string = 'He said, "Aren\'t can\'t shouldn\'t wouldn\'t."'
+##print(conf_string)
 
+##gorilla = 'trouble'
+##print(gorilla)
