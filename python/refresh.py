@@ -66,10 +66,41 @@
 ##print(gorilla)
 
 
-# Embedded Values in Strings
+# Embedded Values in Strings (string substitution)
 
-myname = 'invQ'
-message = 'My name is %s'
+##myname = 'invQ'
+##message = 'My name is %s'
 
-print(message % myname)
+##print(message % myname)
+
+##myscore = 1000
+##message = 'You have %s points'
+##print(message % myscore)
+
+##jkTxt = '%s: a device for finding furniture in the dark. %s also'
+##bdPt1 = 'Knee'
+##bdPt2 = 'Shin'
+##print(jkTxt % bdPt1)
+##print(jkTxt % bdPt2)
+##print(jkTxt % (bdPt1, bdPt2))
+
+# Multiplying strings
+
+##print(10 * 'a')
+
+##spaces = ' ' * 25
+##print('%s 12 Butts Wynd' % spaces)
+##print('%s West Snoring' % spaces)
+##print()
+##print()
+##print('Dear Sir')
+##print('')
+##print('I wish to report that tiles are missing from the')
+##print('outside toilet roof')
+##print('I think it was bad wind the other night that blew them away.')
+##print('')
+##print('Regards')
+##print('Malcolm Dithering')
+
+##print(1000 * 'snirt')
 
