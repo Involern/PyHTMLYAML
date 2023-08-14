@@ -59,7 +59,17 @@
 ##conf_string = "He said, "Aren't can't shouldn't wouldn't.""
 ##conf_string = '''He said, "Aren't can't shouldn't wouldn't."'''
 ##conf_string = 'He said, "Aren\'t can\'t shouldn\'t wouldn\'t."'
+##conf_string = "He said, \"Aren't can't shouldn't wouldn't.\""
 ##print(conf_string)
 
 ##gorilla = 'trouble'
 ##print(gorilla)
+
+
+# Embedded Values in Strings
+
+myname = 'invQ'
+message = 'My name is %s'
+
+print(message % myname)
+
