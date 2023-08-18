@@ -104,3 +104,33 @@
 
 ##print(1000 * 'snirt')
 
+
+# Lists
+
+##wizard_list = 'spider legs, toe of frog, eye of newt, bat wing, slug butter, snake dandruff'
+##from operator import itemgetter
+##wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+##wizard_list[2] = 'David Goggins'
+##wizard_list[0] = 'snail tongue'
+##print(itemgetter(0, 2)(wizard_list))
+
+##wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+##print(wizard_list[2:5])
+
+##smNum = [1, 2, 5, 10, 20]
+##smStr = ['Which', 'Witch', 'Is', 'Which']
+##nmStrList = ['Why', 'was', 6, 'afraid', 'of', 7, 'because', 7, 8, 9]
+
+##print(smNum, smStr, nmStrList)
+
+##nums = [1, 2, 3, 4, 5, 6, 120321]
+##strgs = ['I', 'kicked', 'my', 'toe', 'and', 'it', 'is', 'sore']
+##numsStrgs = [nums, strgs]
+##print(numsStrgs)
+
+# Addings Items to a List
+
+wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+
+wizard_list.append('bear burp')
+print(wizard_list)
