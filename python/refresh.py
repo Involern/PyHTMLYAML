@@ -130,7 +130,33 @@
 
 # Addings Items to a List
 
-wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
 
-wizard_list.append('bear burp')
-print(wizard_list)
+##wizard_list.append('bear burp')
+##print(wizard_list)
+
+# .append function at the end of a list variable adds whatever is in between the ()
+
+##wizard_list = ['spider legs', 'toe of frog', 'eye of newt', 'bat wing', 'slug butter', 'snake dandruff']
+
+##wizard_list.append('mandrake')
+##wizard_list.append('hemlock')
+##wizard_list.append('swamp gas')
+
+##print(wizard_list[3])
+##del wizard_list[3]
+##print(wizard_list[3])
+
+##print(wizard_list)
+##del wizard_list[8]
+##del wizard_list[7]
+##del wizard_list[6]
+##print(wizard_list)
+
+list1 = [1, 2, 3, 4, 5]
+list2 = ['I', 'tripped', 'over', 'and', 'hit', 'the', 'floor']
+list3 = list1 + list2
+
+##print(list1 + 20)
+##FINALa = [list1, list2]
+##print(FINALa)
+##print(list1 + list2)
