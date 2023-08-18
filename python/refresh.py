@@ -152,11 +152,47 @@
 ##del wizard_list[6]
 ##print(wizard_list)
 
-list1 = [1, 2, 3, 4, 5]
-list2 = ['I', 'tripped', 'over', 'and', 'hit', 'the', 'floor']
-list3 = list1 + list2
+##list1 = [1, 2, 3, 4, 5]
+##list2 = ['I', 'tripped', 'over', 'and', 'hit', 'the', 'floor']
+##list3 = list1 + list2
 
 ##print(list1 + 20)
 ##FINALa = [list1, list2]
 ##print(FINALa)
 ##print(list1 + list2)
+
+##fibs = (0, 1, 1, 2, 3)
+##fibs[3] = 59 ~ attempt at overiding a tuple element
+##print(fibs[3])
+
+
+# Maps 
+
+##favSports = ['Ralph Williams, Football',
+##             'Michael Tippett, Basketball',
+##             'Edward Edgar, Baseball',
+##             'Rebecca Clarke, Netball',
+##             'Ethel Smyth, Badminton',
+##             'Frank Bridge, Rugby']
+
+##print(favSports)
+
+favSports = {'Ralph William' : 'Football',
+             'Michael Tippett' : 'Basketball',
+             'Edward Edgar' : 'Baseball',
+             'Rebecca Clarke' : 'Netball',
+             'Ethel Smyth' : 'Badminton',
+             'Frank Bridge' : 'Rugby'}
+
+favColors = {'Malcolm Warner' : 'Pink Polka dots',
+             'James Baxter' : 'Orange striples',
+             'Sue Lee' : 'Purple paisley'}
+
+#~ Cannot add together Maps
+##favMaps = favSports + favColors
+##print(favMaps)
+
+print(favSports['Frank Bridge'])
+##del favSports['Frank Bridge']
+favSports['Frank Bridge'] = 'Ice Hockey'
+print(favSports['Frank Bridge'])
